@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole -n ClickTrackLogger wx_logger.py
