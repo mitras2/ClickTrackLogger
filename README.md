@@ -2,14 +2,20 @@
 # ClickTrackLogger
 ClickTrackLogger is a Python based tool to record mouseclicks, scrolling and keypresses with timestamps in a log file. 
 It was developed for a scientific project where user input had to recorded. It is tested to run on Windows 7 and Windows 10.
-ClickTarckLogger uses a simple wxPython based GUI to start and stop logging.
+ClickTrackLogger uses a simple wxPython based GUI to start and stop logging.
 
-Main file:
-*wx_logger.py*
+Main file:  
+`wx_logger.py`
+
+A ready to use exe file of the ClickTrackLogger of the ClickTrackLogger can be found in the dist folder.
+
 
 ## Dependencies
 - pynput (tested with v.1.4.2) <https://pypi.org/project/pynput/>
 - wxPython (tested with v.4.0.6) <https://www.wxpython.org/>
+
+## Ready to use exe file
+
 
 ## Building ClickTrackLogger
 A one-file exe version of ClickTrackLogger can be build using pyinstaller (tested with v.3.4) <https://www.pyinstaller.org/>.
